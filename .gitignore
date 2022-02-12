@@ -1,0 +1,11 @@
+.terragrunt-cache
+.idea
+
+.DS_Store
+**/.DS_Store
+
+*.lock.hcl
+
+tmp-*
+
+*.terraform.tfstate*
