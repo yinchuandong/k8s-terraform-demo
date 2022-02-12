@@ -14,6 +14,7 @@ generate "provider" {
     }
 
     provider "kubernetes" {
+      # Note: replace with your own configurations
       host                   = "https://172.16.58.128:8443"
       client_certificate     = file("~/.minikube/profiles/minikube/client.crt")
       client_key             = file("~/.minikube/profiles/minikube/client.key")
