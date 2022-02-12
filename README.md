@@ -31,7 +31,7 @@ The detailed document can be found here: [https://kubernetes.io/docs/tasks/tools
 
 You will need to update `live/terragrunt.hcl` to use your own minikube cluster and authentication.
 
-- You can update the `host` to your own ip via `minikube ip`.
+- You can update the `host` to your own ip via `minikube ip`. Note that the ip is the external ip used to access service.
 - You can update the authenicaion certificates. Get your own one via `minikube config view`
 
 ```t
