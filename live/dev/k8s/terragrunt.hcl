@@ -12,5 +12,5 @@ include {
 }
 
 inputs = {
-    stage = local.stage
+  stage = local.stage
 }
