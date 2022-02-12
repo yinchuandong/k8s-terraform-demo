@@ -8,4 +8,4 @@
 
 tmp-*
 
-*.terraform.tfstate*
+*.tfstate*
