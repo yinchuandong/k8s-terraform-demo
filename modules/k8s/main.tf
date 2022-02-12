@@ -45,7 +45,7 @@ resource "kubernetes_service" "test" {
     }
     type = "NodePort"
     port {
-      node_port   = 30201
+      node_port   = var.exposed_service_node_port
       port        = 80
       target_port = 80
     }

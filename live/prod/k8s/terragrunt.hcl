@@ -13,5 +13,5 @@ include {
 
 inputs = {
   stage = local.stage
-  exposed_service_node_port = 30201
+  exposed_service_node_port = 30202
 }
